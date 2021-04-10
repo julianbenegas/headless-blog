@@ -1,3 +1,5 @@
+// delete this lol
+
 type Props = {
   who: string
 }

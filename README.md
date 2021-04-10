@@ -8,11 +8,15 @@ The objective of this boilerplate is to set up everything the developer will nee
 
 - Typescript
 - NextJS
+- TailwindCSS
+- next-themes
 
 ## Things to note
 
 - It comes with Inter (it's better to host fonts here rather than getting them from google fonts). Remove it if you are not going to use it.
 - Pages, components, etc... are located under `/src`. If you are changing this, be sure to also update `tsconfig.json`'s `baseUrl`.
+- If you are **not** using Tailwind, you can remove `postcss.config.js` and `tailwind.config.js`.
+- It comes with `next-themes`, so dark mode ready. If you're not using it, just remove the library.
 
 ---
 

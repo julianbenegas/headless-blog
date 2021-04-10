@@ -1,5 +1,7 @@
 import Hello from 'components/hello'
 
-const HomePage = () => <Hello who="Typescript" />
+const HomePage = () => {
+  return <Hello who="Typescript" />
+}
 
 export default HomePage

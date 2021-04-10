@@ -1,4 +1,6 @@
-@import './reset.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import './inter.css';
 
 :root {
@@ -9,4 +11,8 @@
 
 body {
   font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }
